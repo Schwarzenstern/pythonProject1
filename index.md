@@ -19,19 +19,8 @@
 </header>
 
   <div class="container">
-      {% block content %}{% endblock %}
-  </div>
-</body>
-</html>
-
-{% extends 'main/base.html' %}
-
-{% block title %}
-Прототип страницы тесте
-{% endblock %}
-
-{% block content %}
-  <h1>Тест</h1>
+    
+    <h1>Тест</h1>
   <p>Название раздела</p>
 <html>
  <head>
@@ -53,4 +42,6 @@
   </form>
  </body>
 </html>
-{% endblock %}
+  </div>
+</body>
+</html>
